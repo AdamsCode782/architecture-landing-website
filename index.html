@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architect Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="spinner-container">
+      <div class="circles">
+        <div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hamburger-menu" aria-label="Open menu" role="button" tabindex="0">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Close</span>
+      </div>
+
+      <!-- HERO / HOME -->
+      <header id="home" class="header">
+        <div class="img-wrapper">
+          <img src="images/bg.jpg" alt="Architectural project background" />
+        </div>
+
+        <div class="banner">
+          <h1>Architecture & Interior Design</h1>
+          <p>
+            We create enduring, crafted spaces — residential and commercial —
+            where light, material and function are in balance.
+          </p>
+          <button type="button" class="discover-now">Discover now</button>
+        </div>
+      </header>
+
+      <!-- SIDEBAR / NAV -->
+      <section class="sidebar" aria-hidden="false">
+        <ul class="menu" role="menu">
+          <li class="menu-item">
+            <a href="#home" class="menu-link" data-content="Home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#about" class="menu-link" data-content="About Us">About Us</a>
+          </li>
+          <li class="menu-item">
+            <a href="#team" class="menu-link" data-content="Team">Team</a>
+          </li>
+          <li class="menu-item">
+            <a href="#pricing" class="menu-link" data-content="Pricing">Pricing</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contact" class="menu-link" data-content="Contact">Contact</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ABOUT (keeps original layout) -->
+      <section id="about" class="about-us">
+        <div class="section-header">
+          <h1 class="section-heading">About Us</h1>
+          <div class="underline"></div>
+        </div>
+
+        <div class="services">
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-pen-nib" aria-hidden="true"></i>
+              <h3>Interior</h3>
+            </div>
+            <p class="service-text">
+              We design interiors that prioritize human comfort and long-lasting
+              material choices — thoughtful proportions, daylighting and furniture
+              tailored to the project.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-paint-roller" aria-hidden="true"></i>
+              <h3>Exterior</h3>
+            </div>
+            <p class="service-text">
+              Our exteriors respond to context and climate — durable façades,
+              considered openings, and detailing for longevity.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+              <h3>Design</h3>
+            </div>
+            <p class="service-text">
+              Concept to construction: a clear design narrative, technical rigor,
+              and coordination with consultants to protect the intent.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-paint-brush" aria-hidden="true"></i>
+              <h3>Decoration</h3>
+            </div>
+            <p class="service-text">
+              We curate finishes and furniture to complete the experience — simple,
+              honest palettes chosen for use and light.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-header">
+              <i class="fas fa-ruler-combined" aria-hidden="true"></i>
+              <h3>Planning</h3>
+            </div>
+            <p class="service-text">
+              Feasible, code-aware planning that respects budgets and timelines,
+              with permit-ready deliverables when required.
+            </p>
+          </div>
+
+          <div class="service">
+            <div class="service-header">
+              <i class="far fa-building" aria-hidden="true"></i>
+              <h3>Execution</h3>
+            </div>
+            <p class="service-text">
+              On-site coordination and close construction involvement to ensure
+              the design is realized correctly.
+            </p>
+          </div>
+
+          <div class="about-us-img-wrapper">
+            <img src="images/house.png" alt="Completed house project" />
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM (removed Read More buttons) -->
+      <section id="team" class="team">
+        <div class="section-header">
+          <h1 class="section-heading">Our Team</h1>
+          <div class="underline"></div>
+        </div>
+
+        <div class="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-1.jpg" alt="John Smith — CEO" />
+            </div>
+            <div class="card-info">
+              <h2>John Smith</h2>
+              <h3>CEO</h3>
+              <p>
+                John leads our practice with a focus on concept development,
+                client strategy, and thoughtful masterplanning.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-2.jpg" alt="Ann Brown — Designer" />
+            </div>
+            <div class="card-info">
+              <h2>Ann Brown</h2>
+              <h3>Designer</h3>
+              <p>
+                Ann specializes in interiors, material research, and furniture
+                systems that adapt to daily life.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-3.jpg" alt="Mary Doe — Architect" />
+            </div>
+            <div class="card-info">
+              <h2>Mary Doe</h2>
+              <h3>Architect</h3>
+              <p>
+                Mary coordinates technical delivery, drawing details and working
+                with contractors to preserve the design intent.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING (new section on same page - simple text) -->
+      <section id="pricing" class="about-us">
+        <div class="section-header">
+          <h1 class="section-heading">Pricing & Packages</h1>
+          <div class="underline"></div>
+        </div>
+
+        <div class="pricing-intro">
+          <p>
+            We offer transparent, scoped packages and also produce bespoke proposals for larger projects.
+            Typical starting ranges:
+          </p>
+        </div>
+
+        <div class="pricing-cards">
+          <div class="price-card">
+            <h3>Concept Package</h3>
+            <p class="price">from $5,000</p>
+            <p class="details">
+              Site analysis, two concept options
+            </p>
+          </div>
+
+          <div class="price-card">
+            <h3>Schematic + Development</h3>
+            <p class="price">from $15,000</p>
+            <p class="details">
+              Schematic design and materials
+            </p>
+          </div>
+
+          <div class="price-card">
+            <h3>Full Service</h3>
+            <p class="price">from $45,000</p>
+            <p class="details">
+              CDs, bidding, administration
+            </p>
+          </div>
+        </div>
+
+        <div class="pricing-footer">
+          <p>Every project receives a tailored proposal. <a href="#contact">Contact us</a> for a short consultation.</p>
+        </div>
+      </section>
+
+
+      <!-- CONTACT (keeps original structure) -->
+      <section id="contact" class="contact">
+        <div class="contact-wrapper">
+          <div class="contact-left" aria-hidden="true"></div>
+
+          <div class="contact-right">
+            <h1 class="contact-heading">Contact</h1>
+
+            <form class="contact-form" action="#" method="post">
+              <div class="input-group">
+                <input type="text" class="field" name="name" required />
+                <label class="input-label">Full Name</label>
+              </div>
+
+              <div class="input-group">
+                <input type="email" class="field" name="email" required />
+                <label class="input-label">Email</label>
+              </div>
+
+              <div class="input-group">
+                <textarea class="field" name="message" required></textarea>
+                <label class="message">Message</label>
+              </div>
+
+              <input type="submit" class="submit-btn" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">
+            Copyright &copy; 2025, SteeleDesigns - All Rights Reserved
+          </p>
+
+          <div class="social-list">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+      <!-- Back to Top Button -->
+      <a href="#" id="scrollTopBtn" title="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+
+      
+    
+
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="tilt.js"></script>
+  </body>
+</html>
