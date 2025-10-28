@@ -40,6 +40,7 @@ This is a focused, static landing page that highlights services, team members, p
 
 ## Project Structure
 
+```
 ├── index.html # Single-page HTML
 ├── style.css # Styles and responsive rules
 ├── script.js # UI behavior (menu, smooth scroll, preloader, scroll-to-top)
@@ -52,7 +53,7 @@ This is a focused, static landing page that highlights services, team members, p
 │ ├── person-3.jpg
 │ └── contact-bg.jpg
 └── README.md # This file
-
+```
 
 ---
 
