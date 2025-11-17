@@ -3,6 +3,8 @@
 A clean, responsive single-page portfolio site that showcases an architecture & interior design studio.  
 This project demonstrates layout, typography, subtle motion, and small, thoughtful interactions typical of client-facing portfolio pages.
 
+Live demo: https://adamscode782.github.io/architecture-landing-website/
+
 ---
 
 ![Hero preview](images/bg.jpg)
